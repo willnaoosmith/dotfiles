@@ -1,0 +1,30 @@
+[Desktop Entry]
+Categories=GNOME;GTK;DDE;Utility;System;TerminalEmulator;
+Comment=Use the command line
+Exec=deepin-terminal
+GenericName=Terminal
+Icon=deepin-terminal
+Keywords=shell;prompt;command;commandline;
+Name=Deepin Terminal
+StartupNotify=true
+TryExec=deepin-terminal
+Type=Application
+X-Deepin-Vendor=deepin
+Comment[pt]=Utilize a linha de comandos
+Comment[pt_BR]=Usar a linha de comando
+GenericName[pt]=Abrir Terminal
+GenericName[pt_BR]=Terminal
+Keywords[pt_BR]=shell;prompt;command;commandline;
+Name[pt]=Deepin Terminal
+Name[pt_BR]=Terminal Deepin
+X-XFCE-Source=file:///usr/share/applications/deepin-terminal.desktop
+
+[NewWindow Shortcut Group]
+Exec=deepin-terminal
+Name=New Window
+Name[pt_BR]=Nova Janela
+
+[Quake Shortcut Group]
+Exec=deepin-terminal --quake-mode
+Name=Quake Terminal
+Name[pt_BR]=Terminal Quake

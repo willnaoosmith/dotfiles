@@ -1,0 +1,160 @@
+.xfce4-panel {
+	box-shadow: none;
+}
+
+.xfce4-panel button {
+	transition: -gtk-icon-transform 0.1s;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 3px solid transparent;
+	transition: all 300ms;
+	border-radius: 8px;
+	padding: 1px;
+}
+
+.xfce4-panel button:hover{
+	-gtk-icon-transform:scale(1.1) translateX(0px);
+	background-color: black;	
+	border: 1px solid transparent;
+}
+
+#clock-button {	
+	background-color: black;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#whiskermenu-button {
+	box-shadow: none;
+}
+
+#whiskermenu-window iconview {
+	padding: 5px 0px;
+	border-radius: 3px;
+}
+
+window#whiskermenu-window>frame>border {
+	border: 1px solid transparent;
+	margin: 0px;
+}
+
+window#whiskermenu-window scrolledwindow {
+	border: none;
+}
+
+* {
+	-ThunarAbstractIconView-row-spacing: 10px;
+	-ThunarAbstractIconView-column-spacing: 10px;
+}
+
+menu,
+.context-menu {
+	border: 0px solid transparent;
+	border-radius: 10px;
+}
+
+#XfceNotifyWindow {
+	background-color: rgba(0, 0, 0, 0.9);
+	border: 0px solid transparent;
+	border-radius: 5px;
+}
+
+#XfceNotifyWindow progressbar {
+	border-radius: 5px;
+}
+
+#XfceNotifyWindow progressbar progress,
+#XfceNotifyWindow progressbar trough {
+	min-height: 4px;
+}
+
+#XfceNotifyWindow image {
+	-gtk-icon-transform: scale(0.5);
+	background-color: #2a2c37;
+	box-shadow: inset 0px 0px 2px #323340;
+	border-radius: 5px;
+}
+
+.xfsm-logout-dialog {
+	border: 2px solid #1a1b26;
+	border-radius: 5px;
+}
+.xfsm-logout-dialog * {
+	margin: 3px;
+	border-radius: 5px;
+}
+
+
+NaTrayApplet {
+	background-color: red;
+}
+
+#pulseaudio-button menu .linked button {
+	color: lightblue;
+	border-color: gray;
+}
+
+window#whiskermenu-window entry.search {
+  background-color: #212123;
+  border-radius: 6px;
+}
+
+window#whiskermenu-window > frame > border {
+	background-color: rgba(0,0,0, 0.9);
+	border-radius: 6px;
+}
+
+window#whiskermenu-window entry.search:focus {
+  border: 1px solid #FF6500;
+}
+
+#xfwm-tabwin {
+  padding: 12px;
+  border-radius: 12px;
+  -XfwmTabwinWidget-icon-size: 256px;
+  -XfwmTabwinWidget-preview-size: 256px;
+  background-color: transparent;
+  color: transparent;
+  background-image: none;
+}
+
+#xfwm-tabwin button {
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 25px solid transparent;
+	transition: all 500ms;
+	color: transparent;
+	background-image: none;
+}
+
+#xfwm-tabwin button:active, #xfwm-tabwin button:checked, #xfwm-tabwin button:active:hover, #xfwm-tabwin button:checked:hover{
+  background-color: rgba(0, 0, 0, 0.9);  	
+	border: 1px solid transparent;
+}
+
+
+wnck-pager {
+		background: #333; color: #ccc
+}
+
+wnck-pager:selected {
+	background: #ff9900; color: black
+}
+
+#systray-9 *{
+	transition: all 300ms;	
+	background-color: rgba(0, 0, 0, 0.9);
+	border: 3px solid transparent;
+	border-radius: 8px;
+}
+
+.tasklist button image {
+  -gtk-icon-transform:scale(0.8) translateX(0px);
+  transition: -gtk-icon-transform 0.3s;
+}
+
+.tasklist button:hover image {
+  -gtk-icon-transform:scale(1) translateX(0px);  
+}
+
+.tasklist button:checked {
+	background-color: rgba(0, 0, 0, 1.0);
+}
