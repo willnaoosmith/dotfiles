@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"AutoFileName",
+		"BracketHighlighter",
+		"Calamity",
+		"ColorPicker",
+		"Earthbound Themes",
+		"Material Theme",
+		"Package Control",
+		"rsub",
+		"WakaTime",
+	],
+	"in_process_packages":
+	[
+	],
+}
